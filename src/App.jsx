@@ -23,7 +23,7 @@ function App() {
             <div className='link'  >
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
-              <Link to="/profile">Profile</Link>
+              <Link to="/product">Product</Link>
               <Link to="/contact">Contact</Link>
             </div>
             :
