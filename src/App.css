@@ -1,0 +1,62 @@
+/* General Styling for Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(91, 181, 91, 0.946);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.link  {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.link a:hover {
+    color: #fdfbfb;
+}
+
+
+
+
+
+#Toggle {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#Toggle:hover {
+
+    background-color: #1a692a;
+    color: aliceblue;
+
+}
+
+h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 46px;
+    color: rgb(161, 33, 33);
+}
